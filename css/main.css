@@ -1,0 +1,56 @@
+/* reset */
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    position: relative;
+width: 900px;
+margin: 20px auto;
+border: 1px solid #ccc;
+background-color: #f2f2f2;
+padding: 10px;
+border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+img {
+    width: 30%;
+    border-right: 1px solid #ccc;
+}
+
+.details {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+button.purchase-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button.purchase-btn:hover {
+    background-color: darkorange;
+}
